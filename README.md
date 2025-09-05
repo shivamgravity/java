@@ -4,5 +4,6 @@ This repository is my own workspace to practice java programming language. If yo
 
 - **p1** : Just started, Hello World program!
 - **p2** : Arithmetic Operations.
+- **p3** : Data Types.
 
 *Learning...*
