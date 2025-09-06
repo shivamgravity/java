@@ -14,5 +14,15 @@ public class ArrayOneD {
         for(int i=0; i<5; i++) {
             System.out.println(arr[i]);
         }
+
+        int newArr[] = new int[5];
+
+        for(int i=1; i<6; i++) {
+            newArr[i-1] = i;
+        }
+
+        for(int i=0; i<5; i++) {
+            System.out.println(newArr[i]);
+        }
     }
 }
