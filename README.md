@@ -7,5 +7,6 @@ This repository is my own workspace to practice java programming language. If yo
 - **p2** : Arithmetic Operations.
 - **p3** : Data Types.
 - **p4** : Scope and life time of variable.
+- **p5** : Arrays.
 
 *Learning...*
