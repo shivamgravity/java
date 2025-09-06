@@ -10,5 +10,6 @@ This repository is my own workspace to practice java programming language. If yo
 - **p5** : Arrays.
     - **oneD** : One dimensional arrays.
     - **twoD** : Two dimensional arrays.
+- **p6** : Operators.
 
 *Learning...*
