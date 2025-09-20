@@ -34,9 +34,17 @@ public class Bitwise {
         // << left shift (value << num)
         // shifts the bits, num times to left side
         // be careful about how many bits each data type have
-        int shift1a = c << 2;
-        byte shift2a = (byte) (c << 2);
-        System.out.println(c + " << 2 (converted to int) = " + shift1a);
-        System.out.println(c + " << 2 (byte as original) = " + shift2a);
+        int shiftL1c = c << 2;
+        byte shiftL2c = (byte) (c << 2);
+        System.out.println(c + " << 2 (converted to int) = " + shiftL1c);
+        System.out.println(c + " << 2 (byte as original) = " + shiftL2c);
+
+        // >> right shift (value >> num)
+        // shifts the bits, num times to right side
+        // 0 gets added to the MST each time a bit is shifted to right
+        int shiftR1c = c >> 2;
+        byte shiftR2c = (byte) (c >> 2);
+        System.out.println(c + " >> 2 (converted to int) = " + shiftR1c);
+        System.out.println(c + " >> 2 (byte as original) = " + shiftR2c);
     }
 }
